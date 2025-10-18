@@ -1,0 +1,38 @@
+{
+  "version": "2025.10.19",
+  "updatedAt": "2025-10-19T00:00:00Z",
+
+  "files": {
+    "airlines": "airlines/airlines-iata.min.json",
+    "airports": "airports/airports-iata.min.json"
+  },
+
+  "airlineLogos": {
+    "baseDir": "airline-logos/",
+    "fileTemplate": "{{IATA}}.png",
+    "iataCase": "upper",
+    "extensions": ["png", "PNG"],
+    "fallback": "airline-logos/_default.png"
+  },
+
+  "landmarks": {
+    "cities": {
+      "baseDir": "landmarks/cities/",
+      "fileTemplate": "{{citySlug}}-{{country2Lower}}.jpg",
+      "fallback": "landmarks/cities/_default.jpg"
+    },
+    "countries": {
+      "baseDir": "landmarks/countries/",
+      "fileTemplate": "{{countrySlug}}-{{country2Lower}}.jpg",
+      "fallback": "landmarks/countries/_default.jpg"
+    },
+    "slugRules": {
+      "lowercase": true,
+      "spaceToDash": true,
+      "stripNonAlnum": true,
+      "replacements": {
+        "&": "and"
+      }
+    }
+  }
+}

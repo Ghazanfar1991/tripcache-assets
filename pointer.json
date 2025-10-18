@@ -1,0 +1,5 @@
+{
+  "version": "2025.10.19",
+  "base": "https://cdn.jsdelivr.net/gh/<your-gh-user-or-org>/tripcache-assets@2025.10.19/",
+  "manifest": "manifest.json"
+}
