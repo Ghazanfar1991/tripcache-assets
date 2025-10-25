@@ -3,8 +3,8 @@
   "updatedAt": "2025-10-19T00:00:00Z",
 
   "files": {
-    "airlines": "airlines/airlines-iata.min.json",
-    "airports": "airports/airports-iata.min.json"
+    "airlines": "airlines/airlines.iata.min.json",
+    "airports": "airports/airports.iata.min.json"
   },
 
   "airlineLogos": {
@@ -36,3 +36,4 @@
     }
   }
 }
+
