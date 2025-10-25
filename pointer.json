@@ -1,7 +1,8 @@
 {
-  "version": "2025.10.19",
-  "base": "https://cdn.jsdelivr.net/gh/Ghazanfar1991/tripcache-assets@octoberV2-2025/",
+  "version": "2025.11.05",
+  "base": "https://cdn.jsdelivr.net/gh/Ghazanfar1991/tripcache-assets@octoberV3-2025/",
   "manifest": "manifest.json"
 }
+
 
 
