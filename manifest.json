@@ -23,7 +23,7 @@
     },
     "countries": {
       "baseDir": "landmarks/countries/",
-      "fileTemplate": "{{countrySlug}}-{{country2Lower}}.jpg",
+      "fileTemplate": "{{country2Lower}}.jpg",
       "fallback": "landmarks/countries/_default.jpg"
     },
     "slugRules": {
@@ -36,4 +36,5 @@
     }
   }
 }
+
 
